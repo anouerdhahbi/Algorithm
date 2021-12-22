@@ -1,0 +1,25 @@
+ALGORITHM sentence_read
+VAR
+    s:STRING;
+    length:INTEGER=0;
+    nw:INTEGER=1;
+    nv:INTEGER=0;
+    c:CHAR;
+BEGIN
+DO
+    read(c)
+    
+        length:=length+1
+IF (c='a' , c='A' , c='e' c='E', c='i' c='I', c='e' c='E') THEN
+    nv:=nv+1
+    IF (c=' ')
+    nw=nw+1
+END_IF
+
+        WHILE (c <>".")
+        END_WHILE
+    write(length)
+    write(nv)
+    write(nw)
+END
+
